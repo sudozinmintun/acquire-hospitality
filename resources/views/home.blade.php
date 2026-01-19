@@ -171,8 +171,37 @@
         </div>
     </section>
 
+    {{-- Video  --}}
+    <section class="bg-white pt-4">
+        <div class="container">
+            <div class="row" style="height: 400px;">
+                <div class="col-lg-4">
+                    <video controls class="w-100 h-50 object-fit-cover">
+                        <source src="{{ asset('data/video/video1.mp4') }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="col-lg-4">
+                    <video controls class="w-100 h-50 object-fit-cover">
+                        <source src="{{ asset('data/video/video2.mp4') }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="col-lg-4">
+                    <video controls class="w-100 h-50 object-fit-cover">
+                        <source src="{{ asset('data/video/video3.mp4') }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     {{-- OUR PROGRAMS  --}}
-    <section class="py-6" style="background-color: rgba(243, 239, 239, 0.918)">
+    <section class="py-3" style="background-color: rgba(243, 239, 239, 0.918)">
         <div class="container py-lg-4">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-lg-6">
