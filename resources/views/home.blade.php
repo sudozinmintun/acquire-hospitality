@@ -1,4 +1,7 @@
 @extends('layouts.main')
+@section('title')
+    Welcome
+@endsection
 @section('content')
     <section class="py-6 bg-white position-relative">
         <div class="container">

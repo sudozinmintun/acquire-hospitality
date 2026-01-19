@@ -19,7 +19,7 @@
 
             <div class="col-lg-3 col-md-3">
                 <h6 class="text-uppercase small fw-bold mb-4 tracking-widest text-gold">
-                    Links
+                    Quick Links
                 </h6>
                 <ul class="list-unstyled footer-links">
                     <li class="mb-2">
