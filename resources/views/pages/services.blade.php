@@ -1,13 +1,12 @@
 @extends('layouts.main')
 
-@section('title', 'Our Services | Acquire Hospitality')
+@section('title', 'Our Services ')
 
 @section('content')
 
     <!-- HERO -->
     <section class="position-relative d-flex align-items-center text-white service-hero">
         <div class="hero-bg"></div>
-
         <div class="container position-relative">
             <div class="row">
                 <div class="col-lg-8">
@@ -104,8 +103,7 @@
             <div class="row align-items-center g-5">
 
                 <div class="col-lg-6">
-                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
-                        class="img-fluid rounded shadow-sm" alt="Hospitality Training">
+                    <img src="{{ asset('data/5.jpeg') }}" class="img-fluid rounded shadow-sm" alt="Hospitality Training">
                 </div>
 
                 <div class="col-lg-6">
@@ -166,7 +164,7 @@
             inset: 0;
             background:
                 linear-gradient(rgba(15, 23, 42, .7), rgba(15, 23, 42, .7)),
-                url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1920&q=80') center / cover no-repeat;
+                url('{{ asset('data/13.jpeg') }}') top / cover no-repeat;
         }
 
         .service-block {

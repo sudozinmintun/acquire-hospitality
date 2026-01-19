@@ -66,8 +66,12 @@
 
 <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="#">
-            <img src="https://acquireoverseasygn.com/data/logo.png" alt="" style="width: 40px;">
+        <a class="navbar-brand d-flex flex-column align-items-center fw-bold" href="{{ route('home') }}">
+            <img src="https://acquireoverseasygn.com/data/logo.png" alt="Logo" width="50" height="50"
+                class="mb-1">
+            <span style="font-size: 0.8rem; line-height: 1;">
+                Acquire Co.,Ltd
+            </span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>

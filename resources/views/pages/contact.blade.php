@@ -146,7 +146,7 @@
                             <i class="bi bi-geo-alt"></i>
                         </div>
                         <div>
-                            <h6 class="text-white mb-1">Our Center</h6>
+                            <h6 class="text-white mb-1">Our Office</h6>
                             <p class="small opacity-75">
                                 No.(9B/18th-216), Ayeyar Chan Thar Condo, <br> Ayeyarwun Street, 61 Ward, <br> Dagon Seikken
                                 T,S Yangon.
