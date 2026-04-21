@@ -46,7 +46,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="pillar-card h-100 p-5 position-relative overflow-hidden shadow-sm bg-dark text-white">
+                    <div class="pillar-card h-100 p-5 position-relative overflow-hidden shadow-sm text-white" style="background-color: #357774">
                         <div class="pillar-content position-relative z-2">
                             <div class="icon-circle mb-4 bg-white bg-opacity-10 border border-white border-opacity-25">
                                 <i class="bi bi-airplane-engines fs-2 text-gold"></i>
@@ -70,6 +70,77 @@
                             </a>
                         </div>
                         <span class="pillar-number text-white opacity-5">02</span>
+                    </div>
+                </div>
+                
+                <div class="col-lg-12">
+                    <div class="pillar-card h-100 p-5 position-relative overflow-hidden shadow-sm border-0" style="background: #f8f9fa;">
+                        <div class="pillar-content position-relative z-2">
+                            <div class="row align-items-center mb-5">
+                                <div class="col-md-8">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="icon-circle me-3">
+                                            <i class="bi bi-globe-asia-australia fs-2 text-gold"></i>
+                                        </div>
+                                        <h3 class="fw-bold m-0">Acquire Travel & Tourism</h3>
+                                    </div>
+                                    <p class="text-muted lead mb-0">
+                                        Your global gateway. Providing end-to-end travel solutions from seamless flight logistics to luxury stays and expert visa consultancy.
+                                    </p>
+                                </div>
+                                <div class="col-md-4 text-md-end mt-4 mt-md-0">
+                                    <a href="{{ route('contact') }}" class="btn btn-dark rounded-0 px-5 py-3 shadow-sm">
+                                        Contract Now
+                                        <i class="bi bi-arrow-right ms-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                
+                            <hr class="opacity-10 mb-5">
+                
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="bi bi-airplane text-gold fs-4 me-2"></i>
+                                            <h4 class="h5 fw-bold mb-0">Flight Tickets</h4>
+                                        </div>
+                                        <p class="small text-muted">
+                                            Premium booking for domestic and international routes including 
+                                            <strong>Bangkok, Singapore, Japan, and Dubai</strong> with exclusive competitive rates.
+                                        </p>
+                                    </div>
+                                </div>
+                
+                                <div class="col-md-4">
+                                    <div class="service-item border-start-md ps-md-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="bi bi-building-check text-gold fs-4 me-2"></i>
+                                            <h4 class="h5 fw-bold mb-0">Hotel Booking</h4>
+                                        </div>
+                                        <p class="small text-muted">
+                                            Worldwide reservations at handpicked accommodations. We ensure trusted stays and 
+                                            corporate rates for every budget.
+                                        </p>
+                                    </div>
+                                </div>
+                
+                                <div class="col-md-4">
+                                    <div class="service-item border-start-md ps-md-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="bi bi-passport text-gold fs-4 me-2"></i>
+                                            <h4 class="h5 fw-bold mb-0">Visa Services</h4>
+                                        </div>
+                                        <p class="small text-muted">
+                                            Fast and reliable processing for tourist and work visas. Expert guidance on 
+                                            documentation for hassle-free global entry.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <span class="pillar-number" style="font-size: 12rem; opacity: 0.03; position: absolute; right: -20px; bottom: -40px; font-weight: 900;">03</span>
                     </div>
                 </div>
             </div>
@@ -149,7 +220,7 @@
                     <h6 class="text-primary fw-bold text-uppercase">Welcome to Acquire</h6>
                     <h2 class="fw-bold display-6 mb-4">Professional Hospitality Training Institute</h2>
 
-                    <p class="text-muted fs-5">
+                    <p class="text-muted" style="font-size: 16px;">
                         Acquire Hospitality Training is dedicated to developing skilled professionals for the international
                         hospitality and tourism industries. We combine academic excellence with hands-on training to prepare
                         students for real-world success.
@@ -214,7 +285,7 @@
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="program-card h-100 p-4 p-xl-5 text-center">
-                        <div class="icon-box-wrapper mb-4">
+                        <div class="icon-box-wrapper mb-4" >
                             <div class="icon-box-shape bg-primary text-white">
                                 <i class="bi bi-buildings fs-2"></i>
                             </div>
@@ -227,9 +298,9 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                    <div class="program-card h-100 p-4 p-xl-5 text-center active">
+                    <div class="program-card h-100 p-4 p-xl-5 text-center active" >
                         <div class="icon-box-wrapper mb-4">
-                            <div class="icon-box-shape bg-primary text-white">
+                            <div class="icon-box-shape bg-primary text-white" style="background-color: #357774;">
                                 <i class="bi bi-cup-hot fs-2"></i>
                             </div>
                         </div>
@@ -298,7 +369,7 @@
             align-items: center;
             justify-content: center;
             border-radius: 24px;
-            background: var(--primary-gradient, #0d6efd) !important;
+            background: var(--primary-gradient, #357774) !important;
             transform: rotate(-5deg);
             transition: all 0.4s ease;
         }
@@ -341,7 +412,7 @@
     <section class="py-6 position-relative overflow-hidden">
         <div class="position-absolute top-0 end-0 translate-middle-y opacity-10 d-none d-lg-block"
             style="margin-right: -5%; z-index: -1;">
-            <i class="bi bi-award text-primary" style="font-size: 20rem;"></i>
+            <i class="bi bi-award" style="font-size: 20rem; color: #357774;"></i>
         </div>
 
         <div class="container py-lg-4">
@@ -366,7 +437,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="feature-card shadow-sm h-100 p-4 border-0 rounded-0 bg-white">
                         <div class="feature-icon mb-4">
-                            <i class="bi bi-person-badge text-primary fs-1"></i>
+                            <i class="bi bi-person-badge fs-1" style="color: #357774"></i>
                         </div>
                         <h5 class="fw-bold">Expert <br>Trainers</h5>
                         <hr class="w-25 border-primary border-2 opacity-100 my-3">
@@ -378,7 +449,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="feature-card shadow-sm h-100 p-4 border-0 rounded-0 bg-dark text-white translate-y-lg-3">
                         <div class="feature-icon mb-4">
-                            <i class="bi bi-globe-americas text-warning fs-1"></i>
+                            <i class="bi bi-globe-americas text-warning fs-1" ></i>
                         </div>
                         <h5 class="fw-bold">Global <br>Standards</h5>
                         <hr class="w-25 border-warning border-2 opacity-100 my-3">
@@ -390,7 +461,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="feature-card shadow-sm h-100 p-4 border-0 rounded-0 bg-white">
                         <div class="feature-icon mb-4">
-                            <i class="bi bi-building-check text-primary fs-1"></i>
+                            <i class="bi bi-building-check fs-1" style="color: #357774"></i>
                         </div>
                         <h5 class="fw-bold">Modern <br>Facilities</h5>
                         <hr class="w-25 border-primary border-2 opacity-100 my-3">
@@ -402,7 +473,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="feature-card shadow-sm h-100 p-4 border-0 rounded-0 bg-white translate-y-lg-3">
                         <div class="feature-icon mb-4">
-                            <i class="bi bi-briefcase text-primary fs-1"></i>
+                            <i class="bi bi-briefcase fs-1" style="color: #357774"></i>
                         </div>
                         <h5 class="fw-bold">Career <br>Support</h5>
                         <hr class="w-25 border-primary border-2 opacity-100 my-3">
